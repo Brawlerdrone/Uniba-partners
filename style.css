@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;400;500;600;700&display=swap');
+
+*::before, *::after{
+    box-sizing: border-box;
+}
+:root{
+    --black-text: #000000;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
+}
+body {
+    font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+    color: #4b4f54;
+    line-height: 1.5;
+  }
+li{
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--black-text);
+    
+}
+
+.container{
+    margin: 50px 800px;
+    height: 200px;
+}
+.siteMessage {
+    margin-right: -2.5rem;
+    margin-bottom: 2.5rem;
+    width: 100vw;
+    margin-left: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+  }
+.logo {
+    padding-bottom: 2.5rem;
+    margin: 1.5rem 0 2.5rem;
+}
+/* .logo::before{
+    content: "h1s";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: auto;
+    border-bottom: .125rem solid #4b4f54;
+    background-color: #0e040a;
+    width: -webkit-calc(50vw - 35rem + 100%);
+    width: -moz-calc(50vw - 35rem + 100%);
+    width: calc(50vw - 35rem + 100%);
+    min-width: 9.5rem;
+} */
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerNavWrapper{
+    position: relative;
+    top: -50px;
+   
+    
+    
+    
+}
+.navigation.horizontal{
+    font-size: 16px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+
+}
+
+
